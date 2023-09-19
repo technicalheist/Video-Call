@@ -31,7 +31,7 @@ dependencies: {
  * Videolify P2P - Server component
  *
  * @link    GitHub: https://github.com/Jaideep25/Videolify
- * @link    Live demo: https://videolify.up.railway.app or https://videolify.onrender.com
+ * @link    Live demo: https://videocall.shivrajan.com or https://videolify.onrender.com
  * @license For open source use: AGPLv3
  * @license For commercial or closed source, contact us at jaideepch@outlook.com
  * @author  Jaideep25 - jaideepch@outlook.com
@@ -269,7 +269,7 @@ app.get(["/test"], (req, res) => {
   }
   /*
         http://localhost:3000/test?iceServers=[{"urls":"stun:stun.l.google.com:19302"},{"urls":"turn:openrelay.metered.ca:443","username":"openrelayproject","credential":"openrelayproject"}]
-        https://videolify.up.railway.app//test?iceServers=[{"urls":"stun:stun.l.google.com:19302"},{"urls":"turn:openrelay.metered.ca:443","username":"openrelayproject","credential":"openrelayproject"}]
+        https://videocall.shivrajan.com//test?iceServers=[{"urls":"stun:stun.l.google.com:19302"},{"urls":"turn:openrelay.metered.ca:443","username":"openrelayproject","credential":"openrelayproject"}]
         https://videolify.cleverapps.io/test?iceServers=[{"urls":"stun:stun.l.google.com:19302"},{"urls":"turn:openrelay.metered.ca:443","username":"openrelayproject","credential":"openrelayproject"}]
     */
   res.sendFile(views.stunTurn);
@@ -281,7 +281,7 @@ app.get("/join/", (req, res) => {
     log.debug("Request Query", req.query);
     /* 
             http://localhost:3000/join?room=test&name=videolify&audio=1&video=1&screen=1&notify=1
-            https://videolify.up.railway.app/join?room=test&name=videolify&audio=1&video=1&screen=1&notify=1
+            https://videocall.shivrajan.com/join?room=test&name=videolify&audio=1&video=1&screen=1&notify=1
             https://videolify.cleverapps.io/join?room=test&name=videolify&audio=1&video=1&screen=1&notify=1
         */
     const { room, name, audio, video, screen, notify } = req.query;

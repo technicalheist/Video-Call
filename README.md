@@ -13,9 +13,9 @@ Powered by `WebRTC` using google Stun and [numb](http://numb.viagenie.ca/) Turn.
 
 Open the app in one of following **supported browser**
 
-[![Foo](public/images/browsers.png)](https://videolify.up.railway.app/)
+[![Foo](public/images/browsers.png)](https://videocall.shivrajan.com/)
 
-## https://videolify.up.railway.app/
+## https://videocall.shivrajan.com/
 
 <br>
 
@@ -54,14 +54,14 @@ Open the app in one of following **supported browser**
 
 ## Demo
 
-- `Open` https://videolify.cleverapps.io/newcall `or` https://videolify.up.railway.app/newcall
+- `Open` https://videolify.cleverapps.io/newcall `or` https://videocall.shivrajan.com/newcall
 - `Pick` your personal Room name and `Join To Room`
 - `Allow` to use the camera and microphone
 - `Share` the Room URL and `Wait` someone to join for video conference
 
 ## Room name
 
-- You can also `join` directly to your room name by going to https://videolify.cleverapps.io/join/your-room-name-goes-here `or` https://videolify.up.railway.app/join/your-room-name-goes-here
+- You can also `join` directly to your room name by going to https://videolify.cleverapps.io/join/your-room-name-goes-here `or` https://videocall.shivrajan.com/join/your-room-name-goes-here
 
 ## Quick start
 
@@ -144,13 +144,13 @@ The `response` will give you a `entrypoint / Room URL` for `your meeting`, where
 
 ```bash
 curl -X POST "http://localhost:3000/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
-curl -X POST "https://videolify.up.railway.app/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
+curl -X POST "https://videocall.shivrajan.com/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
 curl -X POST "https://videolify.cleverapps.io/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
 ```
 
 ## API Documentation
 
-The server exposes a [swagger](https://swagger.io/) document at http://localhost:3000/api/v1/docs. Or you can check it out live on [railway](https://videolify.up.railway.app/api/v1/docs) or [heroku](https://videolify.cleverapps.io/api/v1/docs).
+The server exposes a [swagger](https://swagger.io/) document at http://localhost:3000/api/v1/docs. Or you can check it out live on [railway](https://videocall.shivrajan.com/api/v1/docs) or [heroku](https://videolify.cleverapps.io/api/v1/docs).
 
 ---
 
@@ -167,7 +167,7 @@ You can use a service like [ngrok](https://ngrok.com/) or deploy it on:
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
-`DEMO :` https://videolify.up.railway.app/
+`DEMO :` https://videocall.shivrajan.com/
 
 ---
 

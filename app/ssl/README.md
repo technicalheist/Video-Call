@@ -5,7 +5,7 @@
 <hr />
 
 <p align="center">
-    <a href="https://videolify.up.railway.app">videolify.up.railway.app</a>
+    <a href="https://videocall.shivrajan.com">videolify.up.railway.app</a>
 </p>
 
 <hr />
@@ -49,7 +49,7 @@
 
 <br/>
 
-- `Open` https://videolify.up.railway.app/newcall
+- `Open` https://videocall.shivrajan.com/newcall
 - `Pick` your Room name and Join
 - `Allow` using the camera and microphone
 - `Share` the Room URL and Wait for someone to join for the video conference
@@ -62,7 +62,7 @@
 <br/>
 
 - You can `join` directly to a `room` by going to:
-- https://videolify.up.railway.app/join?room=test&name=videolify&audio=0&video=0&screen=0&notify=0
+- https://videocall.shivrajan.com/join?room=test&name=videolify&audio=0&video=0&screen=0&notify=0
 
   | Params | Type    | Description     |
   | ------ | ------- | --------------- |
@@ -85,7 +85,7 @@ Embedding a meeting into a service or app using an iframe.
 ```html
 <iframe
   allow="camera; microphone; fullscreen; display-capture; autoplay"
-  src="https://videolify.up.railway.app/newcall"
+  src="https://videocall.shivrajan.com/newcall"
   style="height: 100%; width: 100%; border: 0px;"
 ></iframe>
 ```
@@ -153,12 +153,12 @@ You can start videoconferencing directly from your Local PC, and be reachable fr
 
 <br/>
 
-You can [Check here](https://videolify.up.railway.app/test), if you are full covered by the Videolify default IceServers ([Stun](https://en.wikipedia.org/wiki/STUN) & [Turn](https://en.wikipedia.org/wiki/TURN)).
+You can [Check here](https://videocall.shivrajan.com/test), if you are full covered by the Videolify default IceServers ([Stun](https://en.wikipedia.org/wiki/STUN) & [Turn](https://en.wikipedia.org/wiki/TURN)).
 
 If not, you can change it in the `.env` file and test it by the URL eg:
 
 ```html
-https://videolify.up.railway.app/test?iceServers=[{"urls":"stun:stun.l.google.com:19302"},{"urls":"turn:openrelay.metered.ca:443","username":"openrelayproject","credential":"openrelayproject"}]
+https://videocall.shivrajan.com/test?iceServers=[{"urls":"stun:stun.l.google.com:19302"},{"urls":"turn:openrelay.metered.ca:443","username":"openrelayproject","credential":"openrelayproject"}]
 ```
 
 </details>
@@ -171,12 +171,12 @@ https://videolify.up.railway.app/test?iceServers=[{"urls":"stun:stun.l.google.co
 ```bash
 # The response will give you a entrypoint / Room URL for your meeting, where authorization: API_KEY_SECRET.
 $ curl -X POST "http://localhost:3000/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
-$ curl -X POST "https://videolify.up.railway.app/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
+$ curl -X POST "https://videocall.shivrajan.com/api/v1/meeting" -H "authorization: videolify_default_secret" -H "Content-Type: application/json"
 ```
 
 ## API Documentation
 
-The API documentation uses [swagger](https://swagger.io/) at http://localhost:3000/api/v1/docs. Or check it out on [live](https://videolify.up.railway.app/api/v1/docs)
+The API documentation uses [swagger](https://swagger.io/) at http://localhost:3000/api/v1/docs. Or check it out on [live](https://videocall.shivrajan.com/api/v1/docs)
 
 </details>
 
@@ -185,13 +185,13 @@ The API documentation uses [swagger](https://swagger.io/) at http://localhost:30
 
 <br/>
 
-https://videolify.up.railway.app/
+https://videocall.shivrajan.com/
 
 <br>
 
 <a target="_blank" href="https://railway.app/new/template/videolify?referralCode=j25"><img src="https://railway.app/button.svg" style="width: 220px;"></a>
 
-https://videolify.up.railway.app
+https://videocall.shivrajan.com
 
 <br>
 

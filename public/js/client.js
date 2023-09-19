@@ -12,7 +12,7 @@
  * Videolify - Client component
  *
  * @link    GitHub: https://github.com/jaideep25/videolify
- * @link    Official Live demo: https://videolify.up.railway.app
+ * @link    Official Live demo: https://videocall.shivrajan.com
  * @license For open source use: AGPLv3
  * @author  Jaideep25 <jaideepch@outlook.com>
  * @version 1.3
