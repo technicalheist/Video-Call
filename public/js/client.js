@@ -7842,18 +7842,15 @@ function showAbout() {
   Swal.fire({
     background: swalBackground,
     position: "center",
-    title: "<strong>Videolify Made with ❤️</strong>",
+    title: "<strong>Made with ❤️</strong>",
     imageAlt: "About",
     imageUrl: aboutImg,
     html: `
         <br/>
         <div id="about">
-            <b style="color:blue">Open Source</b> project on
-            <a href="https://github.com/jaideep25/videolify" target="_blank"><br/></br>
-            <img alt="Github" src="../images/github.png"></a><br/><br/>
+        The ultimate video conference solution. Seamlessly share your screen, enabling you to present documents or content effortlessly. Stay connected in real-time with our intuitive chat feature, allowing both group and private conversations. Experience high-definition video calls for a truly immersive meeting, or opt for clear and distraction-free audio calls when video isn't necessary. Elevate your communication and revolutionize your virtual meetings.
         </div>
         </br>
-        <div id="author">Authors : <a href="https://github.com/Jaideep25/" target="_blank"> Jaideep25</a> & <a href="https://github.com/miroslavpejic85" target="_blank"> Miroslav Pejic</a></div>
         `,
     showClass: {
       popup: "animate__animated animate__fadeInDown",
