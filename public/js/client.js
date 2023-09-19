@@ -7843,8 +7843,8 @@ function showAbout() {
     background: swalBackground,
     position: "center",
     title: "<strong>Made with ❤️</strong>",
-    imageAlt: "About",
-    imageUrl: aboutImg,
+    // imageAlt: "About",
+    // imageUrl: aboutImg,
     html: `
         <br/>
         <div id="about">
